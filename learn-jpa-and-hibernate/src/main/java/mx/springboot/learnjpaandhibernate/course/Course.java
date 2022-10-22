@@ -8,7 +8,7 @@ import javax.persistence.Id;
 public class Course {
     @Id
     private Long id;
-    //@Column(name="name")
+    @Column(name="name")
     private String name;
     private String author;
 
